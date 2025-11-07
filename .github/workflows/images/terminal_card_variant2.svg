@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <rect width="600" height="120" rx="8" fill="#07122b"/>
+  <text x="16" y="30" font-family="monospace" font-size="14" fill="#9be7ff">$ python analyze.py</text>
+  <text x="16" y="56" font-family="monospace" font-size="13" fill="#e6fffb">加载数据... 完成 ✅</text>
+  <text x="16" y="82" font-family="monospace" font-size="13" fill="#c6f6d5">发现 3 个异常点，建议检查日期列</text>
+  <rect x="12" y="12" width="12" height="6" rx="1" fill="#ff5f56"/>
+  <rect x="30" y="12" width="12" height="6" rx="1" fill="#ffbd2e"/>
+  <rect x="48" y="12" width="12" height="6" rx="1" fill="#27c93f"/>
+</svg>
