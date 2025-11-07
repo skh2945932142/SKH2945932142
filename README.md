@@ -10,10 +10,3 @@
   <img src="images/skills.svg" alt="skills" width="700" />
 </div>
 
----
-
-<!-- 彩色分割波浪（图片或 svg） -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/master/resources/svg/wave.svg" alt="wave" width="100%" />
-</p>
-
