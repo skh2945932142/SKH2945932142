@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <rect width="600" height="120" rx="8" fill="#0b1221"/>
+  <text x="16" y="30" font-family="monospace" font-size="14" fill="#8be9fd">$ python my_script.py</text>
+  <text x="16" y="56" font-family="monospace" font-size="13" fill="#f8f8f2">Hello, world! 运行成功 ✅</text>
+  <text x="16" y="82" font-family="monospace" font-size="13" fill="#f1fa8c">输出：42</text>
+  <rect x="12" y="12" width="12" height="6" rx="1" fill="#ff5f56"/>
+  <rect x="30" y="12" width="12" height="6" rx="1" fill="#ffbd2e"/>
+  <rect x="48" y="12" width="12" height="6" rx="1" fill="#27c93f"/>
+</svg>

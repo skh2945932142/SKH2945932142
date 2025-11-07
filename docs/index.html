@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>天晴风吹过 · 交互演示</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <canvas id="bg" class="canvas-bg"></canvas>
+  <div class="container">
+    <div class="hero">
+      <div class="hero-left">
+        <h1 class="hero-title">天晴风吹过</h1>
+        <p class="hero-sub">欢迎来到演示页面 — 这里演示 README 中的交互与动效（基于 HTML/CSS/JS）</p>
+        <div style="margin-top:12px">
+          <a class="btn" href="/">返回仓库</a>
+          <a class="btn" href="#demo">查看演示</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <!-- show decorative svg -->
+        <img src="/images/header.svg" alt="header" style="max-width:360px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.4)"/>
+      </div>
+    </div>
+
+    <div class="panel" id="demo">
+      <h3>技能展示</h3>
+      <div class="skills">
+        <div class="skill"><div class="label">Python</div><div class="bar"><i data-pct="80"></i></div></div>
+        <div class="skill"><div class="label">JavaScript</div><div class="bar"><i data-pct="75"></i></div></div>
+        <div class="skill"><div class="label">CSS / HTML</div><div class="bar"><i data-pct="85"></i></div></div>
+      </div>
+      <div class="controls">
+        <button id="shuffle" class="btn">随机化技能值</button>
+        <span class="small">（仅客户端效果，刷新或点击随机化会改变动画）</span>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:18px">
+      <h3>交互卡片（点击翻转）</h3>
+      <div class="cards">
+        <div class="card" tabindex="0">
+          <div class="card-face card-front">
+            <h4>项目 A</h4>
+            <p class="muted">点击查看详情</p>
+          </div>
+          <div class="card-face card-back">
+            <h4>项目 A 详情</h4>
+            <p class="small">这是一个演示卡片。你可以在这里放置项目说明、徽章或链接。</p>
+            <a class="btn" href="#">查看</a>
+          </div>
+        </div>
+        <div class="card" tabindex="0">
+          <div class="card-face card-front">
+            <h4>项目 B</h4>
+            <p class="muted">点击查看详情</p>
+          </div>
+          <div class="card-face card-back">
+            <h4>项目 B 详情</h4>
+            <p class="small">支持自定义 CSS 动画与 SVG 嵌入。</p>
+            <a class="btn" href="#">查看</a>
+          </div>
+        </div>
+        <div class="card" tabindex="0">
+          <div class="card-face card-front">
+            <h4>项目 C</h4>
+            <p class="muted">点击查看详情</p>
+          </div>
+          <div class="card-face card-back">
+            <h4>项目 C 详情</h4>
+            <p class="small">可以把动画预览导出为 SVG，嵌入 README。</p>
+            <a class="btn" href="#">查看</a>
+          </div>
+        </div>
+      </div>
+      <p class="small">提示：按 Enter 或单击卡片可翻转（键盘可访问）。</p>
+    </div>
+
+    <div class="panel" style="margin-top:18px">
+      <h3>更多视觉资源</h3>
+      <img src="/images/skills.svg" alt="skills svg" style="max-width:640px;display:block;margin:12px 0;"/>
+      <img src="/images/terminal_card.svg" alt="terminal" style="max-width:420px;display:inline-block;margin-right:12px"/>
+      <img src="/images/card_wave.svg" alt="card" style="max-width:420px;display:inline-block"/>
+      <p class="small">页面使用 Canvas 粒子背景、CSS 动画和简单的 DOM 控制，适合放在 GitHub Pages 上做为 README 的互动版本。</p>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

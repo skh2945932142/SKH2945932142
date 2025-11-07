@@ -1,0 +1,44 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1221;
+  --accent:#7F56D9;
+  --muted:#94a3b8;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#021026 0%, #071428 100%);color:#e6eef8}
+.container{max-width:980px;margin:32px auto;padding:24px}
+.hero{display:flex;align-items:center;gap:20px}
+.hero-left{flex:1}
+.hero-title{font-size:36px;font-weight:700;color:var(--accent);margin:0}
+.hero-sub{color:var(--muted);margin:6px 0 0}
+.btn{display:inline-block;padding:10px 14px;border-radius:8px;background:linear-gradient(90deg,var(--accent),#00D4FF);color:white;text-decoration:none;margin-right:8px}
+.panel{margin-top:20px;padding:18px;border-radius:12px;background:rgba(255,255,255,0.03);box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+.skills{display:grid;grid-template-columns:1fr;gap:12px}
+.skill{display:flex;align-items:center;gap:12px}
+.skill .label{width:120px}
+.bar{flex:1;height:14px;background:rgba(255,255,255,0.06);border-radius:8px;overflow:hidden}
+.bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),#00D4FF);border-radius:8px}
+.controls{margin-top:12px}
+.small{font-size:12px;color:var(--muted)}
+.canvas-bg{position:fixed;inset:0;z-index:-1;opacity:0.7}
+
+/* cards */
+.cards{display:flex;gap:14px;flex-wrap:wrap}
+.card{width:220px;height:150px;perspective:1000px;cursor:pointer}
+.card:focus{outline:2px solid rgba(127,86,217,0.22);outline-offset:4px}
+.card > .card-face{width:100%;height:100%;border-radius:12px;box-shadow:0 8px 24px rgba(2,6,23,0.6);backface-visibility:hidden;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:16px;position:absolute;left:0;top:0}
+.card-front{background:linear-gradient(135deg,var(--card),#071428);color:#eaf4ff}
+.card-back{background:linear-gradient(135deg,#061024,#082033);color:#dbeefe;transform:rotateY(180deg)}
+.card{position:relative}
+.card.flipped > .card-front{transform:rotateY(180deg)}
+.card.flipped > .card-back{transform:rotateY(360deg)}
+.card > .card-face{transition:transform 520ms cubic-bezier(.2,.9,.3,1)}
+
+/* small helpers */
+.muted{color:var(--muted)}
+
+/* responsive tweaks for cards */
+@media(max-width:720px){.cards{flex-direction:column}.card{width:100%}}
+
+/* responsive */
+@media(max-width:720px){.hero{flex-direction:column;align-items:flex-start}.hero-title{font-size:28px}}

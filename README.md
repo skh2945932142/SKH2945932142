@@ -1,6 +1,4 @@
-
-
-# Hi 👋，我是 天晴风吹过
+﻿# Hi ，我是 天晴风吹过
 
 <div align="center">
   <!-- 本地 SVG header（images/header.svg） -->
@@ -9,7 +7,7 @@
 
 <div align="center" style="margin-top:14px;">
   <!-- 轻量链接按钮 -->
-  <a href="docs/index.html" style="text-decoration:none;background:#0b1221;color:#cfe3ff;padding:8px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);">▶️ 在 docs 中打开完整交互演示</a>
+  <a href="docs/index.html" style="text-decoration:none;background:#0b1221;color:#cfe3ff;padding:8px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);"> 在 docs 中打开完整交互演示</a>
 </div>
 
 ---
@@ -106,3 +104,9 @@ GitHub README 中脚本会被剥离，为了在 README 里呈现「看起来很�
     </style>
   </svg>
 </div>
+
+<details style="margin-top:10px">
+  <summary>查看交互演示页面（包含更多动画与交互）</summary>
+  <p>演示位于 <code>docs/</code>，也可以通过 GitHub Pages 访问：
+  <a href="https://skh2945932142.github.io/SKH2945932142/">演示页面</a></p>
+</details>
