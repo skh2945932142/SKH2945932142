@@ -1,4 +1,4 @@
-# Hi 👋，我是 skh2945932142
+
 
 <div align="center">
   <!-- 本地 SVG header（images/header.svg） -->
