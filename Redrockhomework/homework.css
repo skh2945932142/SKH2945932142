@@ -1,0 +1,19 @@
+img  {
+    max-width: 40%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+  
+h1,h2,h3 {
+    text-align: center;
+font-family: "Zhi Mang Xing", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+form, label ,input,textarea,button,select,option {
+    font-family: "Creepster", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
