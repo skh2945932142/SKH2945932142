@@ -10,20 +10,6 @@
 <div align="center" style="margin-top:14px;">
   <!-- 轻量链接按钮 -->
   <a href="docs/index.html" style="text-decoration:none;background:#0b1221;color:#cfe3ff;padding:8px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);">▶️ 在 docs 中打开完整交互演示</a>
-</div>
-
----
-
-## 更复杂的动画与交互（纯前端、无 JS）
-
-GitHub README 中脚本会被剥离，为了在 README 里呈现「看起来很交互」的效果，我使用了：
-
-- 纯 SVG（包含 SMIL 动画）用于路径变形、渐变位移与进度环动画；
-- 内嵌 SVG 样式（有限的 :hover 与动画控制，GitHub 对部分内联样式保留）；
-- 更完整的交互（鼠标粒子、拖动、富交互）请在 `docs/` 下查看（需要启用 Pages 或本地打开）。
-
-下面是增强版的示例：
-
 <div align="center" style="margin-top:12px;">
   <!-- 复合动画：背景波、变形 blob、渐变进度 -->
   <svg width="100%" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -38,7 +24,6 @@ GitHub README 中脚本会被剥离，为了在 README 里呈现「看起来很�
 
     <rect width="1200" height="320" fill="#06070a" />
 
-    <!-- 背景移动渐变波纹（多个矩形位移） -->
     <g opacity="0.24">
       <rect x="-200" y="40" width="1600" height="120" fill="url(#gradA)">
         <animate attributeName="x" values="-200;0;-200" dur="12s" repeatCount="indefinite"/>
@@ -99,9 +84,7 @@ GitHub README 中脚本会被剥离，为了在 README 里呈现「看起来很�
       </g>
     </g>
 
-    <!-- 提示：悬停会稍微放慢动画（部分平台支持） -->
     <style>
-      /* 在支持 CSS hover 时，为 SVG 添加交互反馈（不是所有平台都支持） */
       svg:hover #bar animate { animation-play-state: paused; }
     </style>
   </svg>
