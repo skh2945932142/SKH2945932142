@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="160" viewBox="0 0 700 160">
+  <style>
+    .label { font: 14px 'Segoe UI', Roboto, Arial; fill:#333; }
+    .pct { font: 12px 'Segoe UI', Roboto, Arial; fill:#666; }
+  </style>
+
+  <!-- 背景 -->
+  <rect width="700" height="160" rx="8" fill="#fff" stroke="#eee"/>
+
+  <!-- 技能1 -->
+  <text x="20" y="34" class="label">Python</text>
+  <rect x="140" y="18" width="520" height="18" rx="9" fill="#f0f2f5"/>
+  <rect x="140" y="18" height="18" rx="9" fill="#7F56D9">
+    <animate attributeName="width" from="0" to="416" dur="1.2s" fill="freeze" />
+  </rect>
+  <text x="670" y="34" class="pct">80%</text>
+
+  <!-- 技能2 -->
+  <text x="20" y="74" class="label">JavaScript</text>
+  <rect x="140" y="58" width="520" height="18" rx="9" fill="#f0f2f5"/>
+  <rect x="140" y="58" height="18" rx="9" fill="#00D4FF">
+    <animate attributeName="width" from="0" to="390" dur="1.4s" fill="freeze" />
+  </rect>
+  <text x="670" y="74" class="pct">75%</text>
+
+  <!-- 技能3 -->
+  <text x="20" y="114" class="label">CSS / HTML</text>
+  <rect x="140" y="98" width="520" height="18" rx="9" fill="#f0f2f5"/>
+  <rect x="140" y="98" height="18" rx="9" fill="#FF6B6B">
+    <animate attributeName="width" from="0" to="468" dur="1.6s" fill="freeze" />
+  </rect>
+  <text x="670" y="114" class="pct">85%</text>
+</svg>
