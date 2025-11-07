@@ -1,11 +1,13 @@
 # Hi 👋，我是 skh2945932142
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/skh2945932142/SKH2945932142/main/images/Image_1760085037367.jpg" alt="头像" width="160" style="border-radius:50%;" />
-  <h2>欢迎来到我的创意主页 ✨</h2>
+  <!-- 本地 SVG header（images/header.svg） -->
+  <img src="images/header.svg" alt="header" width="100%" />
+</div>
 
-  <!-- 动态打字效果（可自定义 lines 参数） -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&size=28&pause=1000&color=7F56D9&center=true&width=720&lines=你好！我是一名爱折腾的开发者;我在用代码讲故事;欢迎一起玩转开源" alt="Typing SVG" />
+<div align="center" style="margin-top:12px;">
+  <!-- 本地技能条（images/skills.svg） -->
+  <img src="images/skills.svg" alt="skills" width="700" />
 </div>
 
 ---
