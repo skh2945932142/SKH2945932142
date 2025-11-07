@@ -1,4 +1,111 @@
-﻿# Hi ，我是 天晴风吹过
+﻿
+# Hi 👋，我是 天晴风吹过
+
+<div align="center">
+  <!-- 内嵌纯 SVG 动画头图（SMIL + 内部 CSS，GitHub README 可渲染） -->
+  <svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <linearGradient id="lg" x1="0%" x2="100%">
+        <stop offset="0%" stop-color="#7F56D9"/>
+        <stop offset="50%" stop-color="#00D4FF"/>
+        <stop offset="100%" stop-color="#FF6B6B"/>
+      </linearGradient>
+      <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+    </defs>
+    <rect width="1200" height="220" fill="#071022" />
+
+    <!-- 渐变波纹 -->
+    <g opacity="0.9">
+      <path id="wave" fill="url(#lg)" d="M0 120 C300 40 900 200 1200 120 L1200 220 L0 220 Z" opacity="0.85">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite"
+          values="M0 120 C300 40 900 200 1200 120 L1200 220 L0 220 Z;
+                  M0 100 C300 180 900 40 1200 100 L1200 220 L0 220 Z;
+                  M0 120 C300 40 900 200 1200 120 L1200 220 L0 220 Z"/>
+      </path>
+    </g>
+
+    <!-- 漂浮光点 -->
+    <g fill="#fff" opacity="0.9" filter="url(#blur)">
+      <circle cx="160" cy="60" r="4" fill="#fff" opacity="0.9">
+        <animate attributeName="cy" values="60;40;60" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="160;200;160" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="420" cy="40" r="3.5" fill="#fff" opacity="0.8">
+        <animate attributeName="cy" values="40;70;40" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="900" cy="80" r="5" fill="#fff" opacity="0.85">
+        <animate attributeName="cy" values="80;50;80" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- 标题文字 -->
+    <text x="48" y="68" font-family="Segoe UI, Roboto, Arial" font-size="30" fill="#fff" font-weight="700">天晴风吹过</text>
+    <text x="48" y="96" font-family="Segoe UI, Roboto" font-size="13" fill="#cfe3ff">代码 · 视觉 · 交互</text>
+  </svg>
+</div>
+
+<div align="center" style="margin-top:12px;">
+  <!-- 内嵌纯 SVG 技能条与环形进度（无 JS） -->
+  <svg width="700" height="160" viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <style>
+      .label{font-family:Inter,Segoe UI,Roboto,Arial;font-size:12px;fill:#dbeffd}
+      .skill-name{font-size:13px;fill:#fff}
+    </style>
+    <!-- 背景卡片 -->
+    <rect x="0" y="0" width="700" height="160" rx="10" fill="#071225" opacity="0.9"/>
+
+    <!-- 技能条 1 -->
+    <text x="24" y="36" class="skill-name">Python</text>
+    <rect x="24" y="44" width="620" height="18" rx="9" fill="#0b2230" />
+    <rect x="24" y="44" width="0" height="18" rx="9" fill="#7F56D9">
+      <animate attributeName="width" from="0" to="480" dur="1.6s" begin="0.2s" fill="freeze"/>
+    </rect>
+
+    <!-- 技能条 2 -->
+    <text x="24" y="84" class="skill-name">JavaScript</text>
+    <rect x="24" y="92" width="620" height="18" rx="9" fill="#0b2230" />
+    <rect x="24" y="92" width="0" height="18" rx="9" fill="#00D4FF">
+      <animate attributeName="width" from="0" to="420" dur="1.8s" begin="0.4s" fill="freeze"/>
+    </rect>
+
+    <!-- 技能条 3 -->
+    <text x="24" y="132" class="skill-name">CSS / HTML</text>
+    <rect x="24" y="140" width="620" height="12" rx="6" fill="#0b2230" />
+    <rect x="24" y="140" width="0" height="12" rx="6" fill="#FF6B6B">
+      <animate attributeName="width" from="0" to="520" dur="2s" begin="0.6s" fill="freeze"/>
+    </rect>
+
+    <!-- 三个环形进度 -->
+    <g transform="translate(500,28)">
+      <circle r="28" cx="0" cy="0" fill="#071225" stroke="#14314a" stroke-width="6"/>
+      <circle r="28" cx="0" cy="0" fill="none" stroke="#7F56D9" stroke-width="6" stroke-linecap="round" stroke-dasharray="176" stroke-dashoffset="176">
+        <animate attributeName="stroke-dashoffset" from="176" to="52" dur="1.6s" begin="0.2s" fill="freeze"/>
+      </circle>
+      <text x="-16" y="6" class="label">Py</text>
+    </g>
+
+    <g transform="translate(560,28)">
+      <circle r="28" cx="0" cy="0" fill="#071225" stroke="#14314a" stroke-width="6"/>
+      <circle r="28" cx="0" cy="0" fill="none" stroke="#00D4FF" stroke-width="6" stroke-linecap="round" stroke-dasharray="176" stroke-dashoffset="176">
+        <animate attributeName="stroke-dashoffset" from="176" to="76" dur="1.8s" begin="0.4s" fill="freeze"/>
+      </circle>
+      <text x="-20" y="6" class="label">JS</text>
+    </g>
+
+    <g transform="translate(620,28)">
+      <circle r="28" cx="0" cy="0" fill="#071225" stroke="#14314a" stroke-width="6"/>
+      <circle r="28" cx="0" cy="0" fill="none" stroke="#FF6B6B" stroke-width="6" stroke-linecap="round" stroke-dasharray="176" stroke-dashoffset="176">
+        <animate attributeName="stroke-dashoffset" from="176" to="36" dur="2s" begin="0.6s" fill="freeze"/>
+      </circle>
+      <text x="-24" y="6" class="label">HTML</text>
+    </g>
+  </svg>
+</div>
+
+---
+
+[▶️ 打开交互演示](https://skh2945932142.github.io/SKH2945932142/)
+
 
 <div align="center">
   <!-- 本地 SVG header（images/header.svg） -->
