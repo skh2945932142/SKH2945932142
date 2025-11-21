@@ -22,14 +22,7 @@
 
 <br/>
 
-<!-- 技术栈图标部分 -->
-<!-- 你可以在 https://skillicons.dev 修改 icons 参数来添加你自己的语言 -->
-## 🛠 Languages and Tools
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,js,html,css,git,docker,vscode&perline=12" />
-  </a>
-</div>
+
 
 <br/>
 
@@ -49,17 +42,7 @@
 
 <br/>
 
-<!-- 底部：联系方式与访客统计 -->
-## 🌐 Connect with me
-<div align="center">
-  <!-- 替换下面的链接为你的真实链接 -->
-  <a href="https://github.com/skh2945932142">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</div>
+
 
 <br/>
 <div align="center">
