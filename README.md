@@ -19,7 +19,7 @@
 - 🔭 I’m currently working on **interesting projects**
 - 🌱 I’m currently learning **new technologies**
 - 💬 Ask me about **coding & design**
-- 📫 How to reach me: **your-email@example.com**
+- 📫 How to reach me: **skh2945932142@gmail.com**
 
 <br/>
 
@@ -28,7 +28,7 @@
 ## 🛠 Languages and Tools
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,python,js,html,css,react,vue,git,docker,linux,mysql,vscode&perline=12" />
+    <img src="https://skillicons.dev/icons?i=python,js,html,css,vue,git,docker,vscode&perline=12" />
   </a>
 </div>
 
