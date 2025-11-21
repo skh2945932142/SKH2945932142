@@ -4,7 +4,7 @@
   
 
   <!-- 这里可以写一句你的个性签名或者介绍 -->
-  <h3> 👨‍💻 A passionate developer from China </h3>
+  <h3> 👨‍💻 一位饱受早八折磨的代码初学者 </h3>
 
   <!-- 动态打字效果，可以修改下面的文字 -->
   <a href="https://git.io/typing-svg">
@@ -27,7 +27,7 @@
 ## 🛠 Languages and Tools
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,js,html,css,vue,git,docker,vscode&perline=12" />
+    <img src="https://skillicons.dev/icons?i=python,js,html,css,git,docker,vscode&perline=12" />
   </a>
 </div>
 
