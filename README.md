@@ -15,10 +15,10 @@
 <br/>
 
 <!-- 简介部分 -->
-- 🔭 I’m currently working on **interesting projects**
-- 🌱 I’m currently learning **new technologies**
-- 💬 Ask me about **coding & design**
-- 📫 How to reach me: **skh2945932142@gmail.com**
+- 🔭 我是一名🈶️🧱大一新生😭
+- 🌱 正在被高数 **来回蹂躏**
+- 💬 可以多交流代码问题😋 **不过我是fvv，都是向别人请教！**
+- 📫 这是我的谷歌邮箱: **skh2945932142@gmail.com**
 
 <br/>
 
