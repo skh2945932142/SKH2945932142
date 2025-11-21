@@ -28,7 +28,7 @@
 
 <!-- 统计卡片部分 -->
 <!-- 这里使用了 radical 主题，你也可以换成 dark, gruvbox, tokyonight 等 -->
-## 📊 GitHub Stats
+## 📊 GitHub 统计
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=skh2945932142&show_icons=true&theme=radical" height="180" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skh2945932142&layout=compact&theme=radical" height="180" alt="languages graph" />
@@ -49,7 +49,7 @@
   <img src="https://komarev.com/ghpvc/?username=skh2945932142&style=flat-square&color=blueviolet" alt="Profile views" />
 </div>
 
-## 🧱 3D Contributions
+## 🧱 3D 贡献图
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=skh2945932142&theme=radical" alt="3D Contribution Graph" />
 </div>
