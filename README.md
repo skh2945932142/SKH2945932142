@@ -65,3 +65,12 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=skh2945932142&style=flat-square&color=blueviolet" alt="Profile views" />
 </div>
+
+## 🐍 My fvv Snake
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/skh2945932142/skh2945932142/raw/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/skh2945932142/skh2945932142/raw/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://github.com/skh2945932142/skh2945932142/raw/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
