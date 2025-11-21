@@ -66,6 +66,11 @@
   <img src="https://komarev.com/ghpvc/?username=skh2945932142&style=flat-square&color=blueviolet" alt="Profile views" />
 </div>
 
+## 🧱 3D Contributions
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=skh2945932142&theme=radical" alt="3D Contribution Graph" />
+</div>
+
 ## 🐍 My fvv Snake
 <div align="center">
   <picture>
