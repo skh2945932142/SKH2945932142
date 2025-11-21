@@ -1,5 +1,17 @@
 name: Generate Snake
 
+
+on:
+  schedule:
+    # ...
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # ... rest of your job definitions
+
 on:
   # 每天午夜自动运行
   schedule:
