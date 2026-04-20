@@ -20,7 +20,7 @@
   </a>
 </div>
 
-## 动态面板
+## 
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=skh2945932142&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=percentile" height="180" alt="GitHub Stats" />
@@ -39,7 +39,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=skh2945932142&theme=tokyonight" alt="Profile Summary" />
 </div>
 
-## 炫酷动效
+## 
 
 <div align="center">
   <picture>
